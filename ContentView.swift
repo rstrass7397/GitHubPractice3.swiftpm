@@ -1,8 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var array: [Task] = [Task(nameOfTask: "Mow the Lawn"), Task(nameOfTask: "Feed the Dog"), Task(nameOfTask: "Grocery Shop")]
+    @State var array: [Task] = []
     var body: some View {
+        HeaderView(tasks: $array)
         Text("Current Tasks")
             .font(.title2)
         List {

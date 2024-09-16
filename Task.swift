@@ -7,6 +7,6 @@
 
 import Foundation
 struct Task: Hashable  {
-    var nameOfTask = ""
+    var nameOfTask: String
     
 }

@@ -8,5 +8,4 @@
 import Foundation
 struct Task: Hashable  {
     var nameOfTask: String
-    
 }
